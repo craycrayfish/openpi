@@ -1,0 +1,14 @@
+[project]
+name = "runpod-handler"
+version = "0.1.0"
+description = "RunPod handler for OpenPI"
+
+requires-python = "<3.13,>3.11"
+
+dependencies = [
+    "runpod>=1.7.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
